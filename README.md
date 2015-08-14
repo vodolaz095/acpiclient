@@ -24,9 +24,9 @@ It is present on all modern Linux distributions, at least at official repos
 
 ```javascript
 
-    var nacpi = require('nacpi');
+    var acpiclient = require('acpiclient');
     
-    nacpi(function (error, data) {
+    acpiclient(function (error, data) {
       if (error) {
         throw error;
       }
