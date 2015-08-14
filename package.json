@@ -35,6 +35,7 @@
   "bugs": {
     "url": "https://github.com/vodolaz095/acpiclient/issues"
   },
+  "dependencies": {},
   "devDependencies": {
     "istanbul": "0.3.17",
     "mocha": "2.2.5",
