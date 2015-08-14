@@ -1,0 +1,44 @@
+{
+  "name": "acpiclient",
+  "version": "0.0.1",
+  "description": "Get ACPI data about battery level, temperature, fans speed, etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "os": [
+    "linux"
+  ],
+  "engines": {
+    "npm": ">=1.3.6",
+    "node": ">=0.10.36"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vodolaz095/acpiclient.git"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "keywords": [
+    "acpi",
+    "acpiclient",
+    "battery",
+    "temperature",
+    "cooling",
+    "adapter",
+    "wrapper"
+  ],
+  "author": "Anatolij Ostroumov <ostroumov095@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vodolaz095/acpiclient/issues"
+  },
+  "devDependencies": {
+    "istanbul": "0.3.17",
+    "mocha": "2.2.5",
+    "jsdoc": "3.3.2",
+    "should": "7.0.2"
+  }
+}
